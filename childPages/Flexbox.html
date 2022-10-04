@@ -24,12 +24,19 @@
         <!-- Already specified in the charset above-->
 
         <style>
+            * {
+                box-sizing: border-box;
+                font-size: 2vw;
+            }
+
             div {border: thin dotted red;}
+            
             .header {
                 border: 1px solid green;
                 padding: 15px;
+                font-size: 4vw
             }
-            
+
             .menu {}
             .main {}
             .aside {}
@@ -44,7 +51,7 @@
     
     <body>
         <div><header>Header</header></div>
-        <div><nav>Navigation</nav></div>
+        <div><nav class="header">Navigation</nav></div>
         <div><aside>Aside</aside></div>
         <div><main>Main</main></div>
         <div><section>Section</section></div>
