@@ -25,17 +25,34 @@
 
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
 
+    	<style type="text/css">
+.newStyle1 {
+	font-size: 10cm;
+	text-decoration: underline overline;
+}
+.auto-style2 {
+	text-decoration: underline;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.newStyle2 {
+	text-decoration: line-through;
+}
+</style>
+
     </head>
     
-    <body>
-        <header><h1 style="font: size 4vw;">Viewing Subscript and Superscript Tags using Viewport</h1></header>
+    <body style="color: #000000; background-color: #000000; background-image: url('../Images/Blobfish.png')">
+        <header><h1 style="font: size 4vw;" class="auto-style2">Viewing Subscript and Superscript Tags using Viewport</h1></header>
         <nav></nav>
         <aside></aside>
         <main></main>
         <section>
-            <h1 style="font: size 3vw;">An example sentence with all letters of the alphabet</h1>
+            <h1 style="font: size 3vw;" class="auto-style2">An example sentence with all letters of the alphabet</h1>
             <article>
-                <h1 style="font: size 2vw;">
+                <h1 class="auto-style2">
                     The quick brown fox 
                     <sup>jumps</sup> 
                      over the 
@@ -44,22 +61,26 @@
                 </h1>
             </article>
         </section>
-        <article></article>
+        <article class="auto-style3"><strong class="newStyle2">I've ran out of 
+			ideas and now I'll be forced to just use the first google image I 
+			see and use it as a background image :(</strong></article>
         <footer></footer>
     </body>
 
     <footer>
-        <blockquote cite="https://www.brainyquote.com/quotes/nelson_mandela_447224">
+        <blockquote cite="https://www.brainyquote.com/quotes/nelson_mandela_447224" class="auto-style2">
             <!-- Date Accessed 20220919 -->
         </blockquote>
         <p>
+            <span class="auto-style2">
             <strong>
                 "I stand here before you not as a prophet, but as a humble servant of you, the people."
             </strong>
-            <em>- <a href="https://www.brainyquote.com/quotes/nelson_mandela_447224" target="_blank">
-                Nelson Mandela</a>
+            </span>
+            <em><span class="auto-style2">- </span><span class="auto-style3"> <a href="https://www.brainyquote.com/quotes/nelson_mandela_447224" target="_blank">
+                Nelson Mandela</a></span><span class="auto-style2"> </span>
             </em>
         </p>
-        <p>&copy Khalil Adisa, powered by Kadisa2006 in GitHub</p>
+        <p class="auto-style2">&copy Khalil Adisa, powered by Kadisa2006 in GitHub</p>
     </footer>
 </html>

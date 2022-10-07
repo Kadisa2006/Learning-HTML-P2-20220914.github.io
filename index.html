@@ -26,19 +26,63 @@
         <style>
             //divHeader {border: thin dotted red;}
             div {border: thin dotted rgb(0, 255, 4);}
+        body {
+			font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+			font-size: 20px;
+			font-style: italic;
+			text-transform: capitalize;
+			background-color: #800000;
+			background-repeat: repeat;
+		}
+        .auto-style1 {
+	text-decoration: underline;
+}
+a:hover {
+	color: #808000;
+}
+.auto-style2 {
+	text-decoration: underline;
+	font-size: 36px;
+}
+        a {
+			color: #000000;
+		}
+		a:visited {
+			color: #008000;
+		}
+		a:active {
+			color: #800000;
+		}
+		.auto-style3 {
+			text-decoration: underline;
+			text-align: center;
+			font-size: 50px;
+		}
+		.auto-style4 {
+			text-decoration: underline;
+			font-size: 30px;
+		}
+		.auto-style5 {
+			font-size: 36px;
+		}
         </style>
 
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
 
     </head>
     
-    <body>
-        <header><div><divHeader><h1 style="font-size:5.5vw">Learning HTML</h1></divHeader></div></header>
-        <nav><div>
-            <header style="font-size:3vw">Navigation</header>
+    <body style="background-color: #800000; color: #FFFFFF; background-image: url('Images/kaleidoscope-pattern.png');">
+        <header><div><divHeader><h1 style="font-size:5.5vw" class="auto-style3">Learning HTML</h1></divHeader>
+			</div>
+		</header>
+		<nav>
+			<div>
+            	<header style="font-size:3vw" class="auto-style2">
+					<h2 class="auto-style5">Navigation</h2>
+				</header>
             <section>
-                <header style="font-size:2vw">Various Pages</header>
-                <ul style="list-style-type:square; font-size:0.75vw">
+                <header style="font-size:2vw" class="auto-style1">Various Pages</header>
+                <ul style="list-style-type:square; font-size:20px">
                     <li> Meta Data Example: <a href="childPages/Meta Data Example.html" target="_blank">Open this in ATOM to see meta data changes :)</a>
                     <li> Footer Blockquote Example: <a href="childPages/Footer Blockquote Example.html" target="_blank">click here</a>
                     <li> Template Exemplar: <a href="childPages/childTemplate.html" target="_blank">click here</a>
@@ -49,18 +93,28 @@
                     <li> What this index page might look like with Flexbox: <a href="childPages/Flexbox.html" target="_blank">click here</a>
                 </ul>
             </section>
-        </div></nav>
+        </div>
+		</nav>
         <aside></aside>
         <main>
             <div>
-                <h1 style="font-size: 3vw;">
+                <h1 class="auto-style4">
                     Use the main-section-article sections to 
-                    summarize the lessons learned in the links.
-                </h1>
+                    summarize the lessons learned in the links.                 </h1>
             </div>
         </main>
-        <section></section>
-        <article></article>
+        <section>
+			<h2>Summary of what has been learnt in class:</h2>
+		</section>
+        <article>
+			<ol>
+				<li>learnt how to add a title to a webpage</li>
+				<li>Learnt how to use the div tag.</li>
+				<li>learnt how to colour a border</li>
+				<li>Learnt about how information should be placed in a webpage 
+				e.g sections, articles etc.</li>
+			</ol>
+		</article>
         <footer></footer>
     </body>
 
