@@ -1,6 +1,6 @@
 # Learning-HTML-P2-20220914
 P2 Lessons
-- Add Summary of what is learnt on each link to childPages (Done only to webpages worked on)
+- Add Summary of what is learnt on each link to childPages (Done only to webpages worked on in class)
 - Change background colour (Done to all webpages)
 - Properly align text (Done to all webpages)
 - Change text colour (Done to all webpages)
